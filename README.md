@@ -14,4 +14,4 @@ last modified: Apr.29 2020
 
 `trinuc_YL.R`: heatmap for upstream & downstream trinucleotide mutation weights
 
-`summary_gene_info.R`: summarise information of genes with multiple variants (output table with columns: gene, #variant, total SI, TopVariant, format)
+`summary_gene_info.R`: summarise information of genes with multiple variants (output table with columns: `gene`, `#variant`, `total SI`, `TopVariant`, `format`)
