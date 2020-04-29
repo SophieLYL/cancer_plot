@@ -1,4 +1,6 @@
-# cancer plot
+# cancer project script
+
+last modified: Apr.29 2020
 
 `CESanal_prepare.R`: data preparation (using `cancereffectsizeR` package)
 
@@ -12,3 +14,4 @@
 
 `trinuc_YL.R`: heatmap for upstream & downstream trinucleotide mutation weights
 
+`summary_gene_info.R`: summarise information of genes with multiple variants (output table with columns: gene, #variant, total SI, TopVariant, format)
