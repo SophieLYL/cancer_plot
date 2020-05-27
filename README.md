@@ -17,3 +17,5 @@ last modified: Apr.29 2020
 `summary_gene_info.R`: summarise information of genes with multiple variants (output table with columns: `gene`, `#variant`, `mean SI`, `sd`, `TopVariant`, `format`) 
 
 `scatter_linear.R`: linear-scatter plot of gene mutation rate by stages/sizes (highlight genes of interest)
+
+`si_box.R`: box plot for gene selection intensity by stages/sizes
