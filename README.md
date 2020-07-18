@@ -1,6 +1,6 @@
 # cancer project script
 
-last modified: Apr.29 2020
+last modified: July. 18 2020
 
 `CESanal_prepare.R`: data preparation (using `cancereffectsizeR` package)
 
@@ -19,3 +19,5 @@ last modified: Apr.29 2020
 `scatter_linear.R`: linear-scatter plot of gene mutation rate by stages/sizes (highlight genes of interest)
 
 `si_box.R`: box plot for gene selection intensity by stages/sizes
+
+`epistasis_plot.R`: epistasis plot for individual pair of genes
