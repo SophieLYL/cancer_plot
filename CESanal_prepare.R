@@ -1,3 +1,4 @@
+# Updated on July. 18, 2020
 # Preprocess
 
 # set working directory
@@ -11,8 +12,9 @@ ces_anal = CESAnalysis(genome = "hg19",
 
 analysis_size <- load_maf(ces_anal, maf = maf_file, 
                           progression_col = "tumor_size")
-analysis_size = 
-  calc_baseline_mutation_rates(analysis_size, covariate_file = "kirc_pca")
+analysis_size <- gene_mutation_rates(analysis_size, covariate_file = "kirc_pca")
+analysis_size <- annotate_variants(analysis_size)
+
 # Calculate selection intensities and produce human-readable results
 # If you have multiple computing cores and the parallel library, you can parallelize the operation
 analysis_size = ces_snv(analysis_size, include_genes_without_recurrent_mutations = T)
