@@ -12,6 +12,7 @@ ces_anal = CESAnalysis(genome = "hg19",
 
 analysis_size <- load_maf(ces_anal, maf = maf_file, 
                           progression_col = "tumor_size")
+analysis_size = trinuc_mutation_rates(analysis_size, cores = 1)
 analysis_size <- gene_mutation_rates(analysis_size, covariate_file = "kirc_pca")
 analysis_size <- annotate_variants(analysis_size)
 
