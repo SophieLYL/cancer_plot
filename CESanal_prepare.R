@@ -18,7 +18,7 @@ analysis_size <- annotate_variants(analysis_size)
 
 # Calculate selection intensities and produce human-readable results
 # If you have multiple computing cores and the parallel library, you can parallelize the operation
-analysis_size = ces_snv(analysis_size, include_genes_without_recurrent_mutations = T)
+analysis_size = ces_snv(analysis_size, include_nonrecurrent_variants = T)
 
 
 
